@@ -1,0 +1,159 @@
+
+Built-in Functions with List
+-------------------------------------
+
+Built-in functions like all(), any(), enumerate(), len(), max(), min(), list(), sorted() etc. are commonly used with list to perform different tasks.
+
+all()
+------
+
+The all() method returns True when all elements in the given iterable are true. If not, it returns False.
+
+Syntax
+----------
+
+The syntax of all() method is:
+
+all(iterable)
+
+Parameter
+-------------
+
+The all() method takes a single parameter:
+
+    iterable - any iterable (list, tuple, dictionary, etc.) which contains the elements
+
+Return Value from all()
+-------------------------------
+
+The all() method returns:
+
+    True - If all elements in an iterable are true
+    False - If any element in an iterable is false
+
+
+Truth table for all()  			Return Value
+-------------------------------------------------------	-----------------------
+
+All values are true 			True
+
+All values are false 			False
+
+One value is true (others are false) 	False
+
+One value is false (others are true) 	False
+
+Empty Iterable 			True
+
+
+Example
+------------
+
+# all values true
+
+l = [1, 3, 4, 5]
+
+print(all(l))
+
+
+
+# all values false
+
+l = [0, False]
+
+print(all(l))
+
+
+
+# one false value
+
+l = [1, 3, 4, 0]
+
+print(all(l))
+
+
+
+# one true value
+
+l = [0, False, 5]
+
+print(all(l))
+
+
+
+# empty iterable
+l = []
+
+print(all(l))
+
+any()
+--------
+
+The any() method returns True if any element of an iterable is True. If not, any() returns False.
+
+Syntax
+----------
+
+The syntax of any() is:
+
+any(iterable)
+
+Parameters
+---------------
+
+The any() method takes an iterable (list, string, dictionary etc.) in Python.
+
+Return Value from any()
+--------------------------------
+
+any() returns:
+
+    True if at least one element of an iterable is true
+    False if all elements are false or if an iterable is empty
+
+Truth table for any()  			Return Value
+-----------------------------------------------------	---------------------------
+
+All values are true 			True
+
+All values are false 			False
+
+One value is true (others are false) 	True
+
+One value is false (others are true) 	True
+
+Empty Iterable 			False
+
+
+Example
+------------
+
+l = [1, 3, 4, 0]
+
+print(any(l))
+
+
+
+l = [0, False]
+
+print(any(l))
+
+
+
+l = [0, False, 5]
+
+print(any(l))
+
+
+
+l = []
+
+print(any(l))
+
+Output
+---------
+
+True
+False
+True
+False
