@@ -51,3 +51,5 @@ for f in fruits:
 
 for i in range(0,len(fruits),1):
     print(fruits[i])
+
+print(type(fruits))
