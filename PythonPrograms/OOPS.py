@@ -29,6 +29,7 @@ s.calling()
 print(s.name)
 
 class student:
+    schoolname = "Devops University"
     def __init__(self,name,mobnum):
         self.name = name
         self.mobnum = mobnum
@@ -44,4 +45,10 @@ s2 = student("Jack",987456123)
 s1.calling()
 s2.calling()
 s1.studying("DevopsUniv")
+
+print(s1.schoolname)
+print(s2.schoolname)
+student.schoolname = "Devlabs"
+print(s1.schoolname)
+print(s2.schoolname)
 
