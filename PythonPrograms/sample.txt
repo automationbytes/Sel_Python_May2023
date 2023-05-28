@@ -1,0 +1,2 @@
+To write something on file
+ Append statement. This will nt over write
