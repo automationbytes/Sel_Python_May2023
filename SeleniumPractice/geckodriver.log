@@ -1,0 +1,10 @@
+1685330395633	geckodriver	INFO	Listening on 127.0.0.1:60235
+1685330398731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60236" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilerK1A9C"
+1685330399694	Marionette	INFO	Marionette enabled
+1685330399707	Marionette	INFO	Listening on port 60249
+Read port: 60249
+WebDriver BiDi listening on ws://127.0.0.1:60236
+1685330399996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilerK1A9C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60236/devtools/browser/9300f649-62f6-4a42-9b32-a98b116d4601
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
