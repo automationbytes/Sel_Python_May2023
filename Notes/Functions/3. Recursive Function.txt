@@ -1,0 +1,80 @@
+Recursive Function
+--------------------------
+
+In Python, a function can call other functions. It is even possible for the function to call itself. A function that calls itself is known as a recursive 
+function and this technique is known as recursion.
+
+Example
+------------
+
+def recursion_factorial(x):
+	if x==1:
+        	return 1
+    	else:
+        	return(x*(recursion_factorial(x-1)))
+number=4
+print("The factorial of",number,"is",recursion_factorial(number))
+
+Output
+---------
+
+The factorial of 4 is 24
+
+In the above example, recursion_factorial() is a recursive function, as it calls itself.
+
+When we call this function with a positive integer, it will recursively call itself by decreasing the number.
+
+Each function call multiplies the number with the factorial of number 1 until the number is equal to one. This recursive call can be explained in 
+the following steps.
+
+
+recursion_factorial(4)              # 1st call with 4
+4 * recursion_factorial(3)          # 2nd call with 3
+4 * 3 * recursion_factorial(2)      # 3rd call with 2
+4 * 3 * 2 * recursion_factorial(1)  # 4th call with 1
+4 * 3 * 2 * 1                  # return from 4th call as number=1
+4 * 3 * 2                      # return from 3rd call
+4 * 3                         # return from 2nd call
+4                             # return from 1st call
+
+Our recursion ends when the number reduces to 1. This is called the base condition.
+
+Every recursive function must have a base condition that stops the recursion or else the function calls itself infinitely.
+
+without factorial
+num = 4
+fact = 1
+#print(recursion_factorial(
+def withoutrec(x,fact):
+    if x==1:
+        print(x)
+        return x
+    else:
+
+        for i in range(1,x+1):
+            fact = fact*i
+        print(fact)
+        return fact
+
+withoutrec(num,fact)
+print(fact)
+
+
+Advantages of Recursion
+---------------------------------
+
+    Recursive functions make the code look clean and elegant.
+    
+    A complex task can be broken down into simpler sub-problems using recursion.
+    
+    Sequence generation is easier with recursion than using some nested iteration.
+
+Disadvantages of Recursion
+-------------------------------------
+
+    Sometimes the logic behind recursion is hard to follow through.
+    
+    Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
+    
+    Recursive functions are hard to debug.
+

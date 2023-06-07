@@ -1,0 +1,34 @@
+enter - sendkeys
+editbox
+textbox
+
+click method
+link
+button
+checkbox
+radio button
+
+select class
+
+//tagname[@attri = 'value']
+//input[@aria-label = 'First name']
+
+//tagname[text()='value']
+//a[text()='Create a Page']
+
+dropdown
+1)select - select tag
+2)list - li tag
+
+select by value -value attr
+select by index - based on occurance 
+select by vis text - from UI
+
+1) findelements tagname- li
+2) findelements xpath - //ul/li
+3) //input[@id="src"]/parent::div/ul/li
+4) //input[@id="src"]/following-sibling::ul/li
+
+https://selenium-python.readthedocs.io/api.html#desired-capabilities
+https://chromedriver.chromium.org/capabilities
+https://peter.sh/experiments/chromium-command-line-switches/

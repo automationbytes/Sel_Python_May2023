@@ -1,0 +1,20 @@
+Switch to
+
+Alerts - Popup
+4 types
+1) postive cases - alert.accept - ok/yes etc
+2) neg cases - alert.dismiss - cancel/no - etc
+3) text - alert.text
+4) sendkeys - alert.sendkeys
+
+
+Frames - html inside html
+iframe/ frameset tag
+3 ways to switch to iframe:
+1) using id/name
+2) using index
+3) using locators - any locators
+
+window handling - multiple pages/ tabs
+1- Current page - store them 
+2) All the open pages - we will loop to get it

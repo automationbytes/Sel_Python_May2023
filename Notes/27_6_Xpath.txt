@@ -1,0 +1,16 @@
+parent
+	child1 - following sibling (child2)
+	child2 - preceding sibling (child1)
+
+div - parent
+	input - first child
+	ul - second child
+parent to child
+div/ul or div/input
+child to parent
+//ul[]/parent::div
+//input[]/parent::div
+
+//input[]	
+
+//tagname[@att= 'va']
