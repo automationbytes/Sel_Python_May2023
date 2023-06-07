@@ -8,3 +8,46 @@ WebDriver BiDi listening on ws://127.0.0.1:60236
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilerK1A9C\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:60236/devtools/browser/9300f649-62f6-4a42-9b32-a98b116d4601
 [GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1686108675551	geckodriver	INFO	Listening on 127.0.0.1:49705
+1686108678605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49706" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileFWm6ni"
+1686108679653	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686108679659	Marionette	INFO	Listening on port 49723
+Read port: 49723
+WebDriver BiDi listening on ws://127.0.0.1:49706
+1686108679987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileFWm6ni\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49706/devtools/browser/5734d5c7-9852-4fc4-9def-25864482a06d
+JavaScript warning: https://i4.sdlcdn.com/js/1639746993560/snap/base.jquery111.min.js, line 25: unreachable code after return statement
+JavaScript error: https://i4.sdlcdn.com/js/1639746993560/snap/base.jquery111.min.js, line 53: TypeError: a is undefined
+JavaScript warning: https://i1.sdlcdn.com/js/1639746993560/snapdeal/loginIframe.min.js, line 67: unreachable code after return statement
+1686109062678	Marionette	INFO	Stopped listening on port 49723
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilePTI4Gz"
+1686108740913	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686108740931	Marionette	INFO	Listening on port 49956
+Read port: 49956
+WebDriver BiDi listening on ws://127.0.0.1:49941
+1686108741512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofilePTI4Gz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49941/devtools/browser/d9e5f183-0f72-41db-a561-35bff0d78961
+JavaScript warning: https://i4.sdlcdn.com/js/1639746993560/snap/base.jquery111.min.js, line 25: unreachable code after return statement
+JavaScript error: https://i4.sdlcdn.com/js/1639746993560/snap/base.jquery111.min.js, line 53: TypeError: a is undefined
+JavaScript warning: https://i1.sdlcdn.com/js/1639746993560/snapdeal/loginIframe.min.js, line 67: unreachable code after return statement
+1686109062527	Marionette	INFO	Stopped listening on port 49956
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileVHQssN"
+1686108884951	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686108884960	Marionette	INFO	Listening on port 50400
+Read port: 50400
+WebDriver BiDi listening on ws://127.0.0.1:50386
+1686108885302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Vigne\\AppData\\Local\\Temp\\rust_mozprofileVHQssN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50386/devtools/browser/e118d526-cd3c-4d82-ace1-530213ff38eb
+JavaScript warning: https://i4.sdlcdn.com/js/1639746993560/snap/base.jquery111.min.js, line 25: unreachable code after return statement
+JavaScript error: https://i4.sdlcdn.com/js/1639746993560/snap/base.jquery111.min.js, line 53: TypeError: a is undefined
+JavaScript warning: https://i1.sdlcdn.com/js/1639746993560/snapdeal/loginIframe.min.js, line 67: unreachable code after return statement
+1686109062438	Marionette	INFO	Stopped listening on port 50400
+Dynamically enable window occlusion 1
