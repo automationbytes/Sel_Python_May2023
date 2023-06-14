@@ -1,0 +1,24 @@
+Pytest - Unit testing framework
+
+Advantages:
+Parallel Execution
+Run the test cases in groups
+Skip
+Very simple syntax
+Conftest
+Inbuild reporting
+
+File name should either start/end with test
+methodname also should start with test
+
+Running the file
+------------------
+pytest -v
+
+To print any statements
+pytest -v -s
+or
+pytest -v --capture=no
+
+To Run specific file
+pytest filename -v -s

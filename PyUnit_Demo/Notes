@@ -1,0 +1,17 @@
+PyUnit - Unit Testing Framework
+Inbuild framework
+
+4 Concepts
+1) Text fixture - before/after
+2) Test case - indi test cases
+3) test suite - collection of test cases
+4) test runner - provide the reporting
+
+Skip
+---
+skip - without conditions
+skipif - condition is true the method wil b skipped
+skipunless- condition is false this will be skipped
+self.skiptest - to skip inside the method
+
+expectedfailure - not as failure
